@@ -1,28 +1,33 @@
-# Miwok App
+# Mi rifiuto! ♻
 
-This app has been forked during the Udacity course in Android Basics.
+Applicazione Android che funge da guida per la raccolta differenziata presso Trento.
 
-The app displays a lists of vocabulary words of the Miwok language and their English translations.
+Questa app è stata ispirata dal corso Android Basics su Udacity e si basa
+sul riciclabolario edito da Dolomiti Ambiente ed aggiornato a luglio 2019.
 
-The words are divided into four categories:
-- 🔢 Numbers
-- 👨‍👩‍👧‍👦 Family members
-- 🔴🟢 Colors
-- 🗣 Phrases
+Le categorie di rifiuti attualmente esposte sono:
+- 💩 umido
+- 📜 carta e cartone
+- 🍷 vetro
+- 🗑 imballaggi leggeri
+- ⁉ indifferenziato
+- ☢ CRM
+- 💉 farmacia
 
-## Pre-requisites
+## Prerequisiti
 
 - Android SDK v26
 - Minimum Android SDK v16
 - Android Build Tools v28.0.3
 - Android Support Repository v26.1.0
 
-## Getting Started
+## Utilizzare la applicazione
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+Questa app si basa sul Gradle build system. Per utilizzare la app su un dispositivo
+Android, abilitare la funzionalità sviluppatore sul dispositivo e il debug via USB,
+quindi installarla tramite Android Studio.
 
-## License
+## Licenza
 
 Copyright 2016 The Android Open Source Project, Inc.
 
