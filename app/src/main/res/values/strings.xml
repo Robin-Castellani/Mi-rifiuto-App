@@ -30,4 +30,13 @@
 
     <!-- Category name for gathering centre [CHAR LIMIT=20] -->
     <string name="category_crm">CRM</string>
+
+    <!-- Category name for glass [CHAR LIMIT=20] -->
+    <string name="category_vetro">Vetro</string>
+
+    <!-- Category name for pharmacy [CHAR LIMIT=20] -->
+    <string name="category_farmacia">Farmacia</string>
+
+    <!-- Category name for thanks [CHAR LIMIT=20] -->
+    <string name="category_ringraziamenti">Ringraziamenti</string>
 </resources>

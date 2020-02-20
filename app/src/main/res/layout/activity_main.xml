@@ -13,6 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.mi_rifiuto.MainActivity">
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -35,6 +42,12 @@
         android:text="@string/category_carta" />
 
     <TextView
+        android:id="@+id/glass"
+        style="@style/CategoryStyle"
+        android:background="@color/category_vetro"
+        android:text="@string/category_vetro" />
+
+    <TextView
         android:id="@+id/plastic"
         style="@style/CategoryStyle"
         android:background="@color/category_imballaggi"
@@ -52,4 +65,17 @@
         android:background="@color/category_crm"
         android:text="@string/category_crm" />
 
+    <TextView
+        android:id="@+id/pharmacy"
+        style="@style/CategoryStyle"
+        android:background="@color/category_farmacia"
+        android:text="@string/category_farmacia" />
+
+    <TextView
+        android:id="@+id/thanks"
+        style="@style/CategoryStyle"
+        android:background="@color/category_ringraziamenti"
+        android:text="@string/category_ringraziamenti" />
+
 </LinearLayout>
+</ScrollView>

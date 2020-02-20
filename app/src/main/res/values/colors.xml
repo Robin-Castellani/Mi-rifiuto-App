@@ -37,4 +37,13 @@
 
     <!-- Background color for the gathering centre category -->
     <color name="category_crm">#CA1616</color>
+
+    <!-- Background color for the glass category -->
+    <color name="category_vetro">#80FF00</color>
+
+    <!-- Background color for the pharmacy category -->
+    <color name="category_farmacia">#9C27B0</color>
+
+    <!-- Background color for thanks -->
+    <color name="category_ringraziamenti">#000000</color>
 </resources>

@@ -65,6 +65,36 @@
             <!--                android:name="android.support.PARENT_ACTIVITY"-->
             <!--                android:value=".MainActivity" />-->
         </activity>
+        <activity
+            android:name="com.example.android.mi_rifiuto.GlassActivity"
+            android:label="@string/category_vetro">
+            <!--            android:parentActivityName=".MainActivity">-->
+
+            <!--            &lt;!&ndash; Parent activity meta-data to support 4.0 and lower &ndash;&gt;-->
+            <!--            <meta-data-->
+            <!--                android:name="android.support.PARENT_ACTIVITY"-->
+            <!--                android:value=".MainActivity" />-->
+        </activity>
+        <activity
+            android:name="com.example.android.mi_rifiuto.PharmacyActivity"
+            android:label="@string/category_farmacia">
+            <!--            android:parentActivityName=".MainActivity">-->
+
+            <!--            &lt;!&ndash; Parent activity meta-data to support 4.0 and lower &ndash;&gt;-->
+            <!--            <meta-data-->
+            <!--                android:name="android.support.PARENT_ACTIVITY"-->
+            <!--                android:value=".MainActivity" />-->
+        </activity>
+        <activity
+            android:name="com.example.android.mi_rifiuto.ThanksActivity"
+            android:label="@string/category_ringraziamenti">
+            <!--            android:parentActivityName=".MainActivity">-->
+
+            <!--            &lt;!&ndash; Parent activity meta-data to support 4.0 and lower &ndash;&gt;-->
+            <!--            <meta-data-->
+            <!--                android:name="android.support.PARENT_ACTIVITY"-->
+            <!--                android:value=".MainActivity" />-->
+        </activity>
     </application>
 
 </manifest>

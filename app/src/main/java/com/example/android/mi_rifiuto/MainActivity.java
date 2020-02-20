@@ -15,6 +15,7 @@
  */
 package com.example.android.mi_rifiuto;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -41,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
         TextView plastic = findViewById(R.id.plastic);
         // Get the view from its id, specified in the activity_main.xml file
         TextView crm = findViewById(R.id.crm);
+        // Get the view from its id, specified in the activity_main.xml file
+        TextView glass = findViewById(R.id.glass);
+        // Get the view from its id, specified in the activity_main.xml file
+        TextView pharmacy = findViewById(R.id.pharmacy);
+        // Get the view from its id, specified in the activity_main.xml file
+        TextView thanks = findViewById(R.id.thanks);
 
         // Set behaviour when a single tap event is intercepted
         // The behaviour is changing activity from the actual one to the TextView's one
@@ -87,6 +94,33 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent crmIntent = new Intent(MainActivity.this, CRMActivity.class);
                 startActivity(crmIntent);
+            }
+        });
+
+
+        glass.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent glassIntent = new Intent(MainActivity.this, GlassActivity.class);
+                startActivity(glassIntent);
+            }
+        });
+
+
+        pharmacy.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pharmacyIntent = new Intent(MainActivity.this, PharmacyActivity.class);
+                startActivity(pharmacyIntent);
+            }
+        });
+
+
+        thanks.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent thanksIntent = new Intent(MainActivity.this, ThanksActivity.class);
+                startActivity(thanksIntent);
             }
         });
     }
